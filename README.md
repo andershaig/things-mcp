@@ -72,6 +72,18 @@ Add the Things server to the mcpServers key to the configuration file (be sure t
 
 Restart the Claude Desktop app.
 
+### Debugging
+
+You can use
+
+```bash
+npx @modelcontextprotocol/inspector \
+  uv \
+  --directory /ABSOLUTE/PATH/TO/PARENT/FOLDER/things-mcp \
+  run \
+  things_server.py
+```
+
 ### Sample Usage with Claude Desktop
 
 - "What's on my todo list today?"
